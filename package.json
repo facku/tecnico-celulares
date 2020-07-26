@@ -6,7 +6,8 @@
   "author": "Facundo Lopez <facku.mail@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "quasar dev",
+    "build": "quasar build -m spa",
+    "dev": "quasar dev -m",
     "lint": "eslint --ext .js,.vue ./",
     "icons:g": "icongenie g -i ./src/assets/icon.png --skip-trim"
   },
