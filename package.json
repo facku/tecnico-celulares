@@ -6,6 +6,7 @@
   "author": "Facundo Lopez <facku.mail@gmail.com>",
   "private": true,
   "scripts": {
+    "start": "quasar serve ./dist/spa -p 80 -s",
     "build": "quasar build -m spa",
     "dev": "quasar dev -m",
     "lint": "eslint --ext .js,.vue ./",
